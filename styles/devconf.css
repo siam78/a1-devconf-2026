@@ -39,10 +39,12 @@
     color: #575757;
     font-size: 18px;
 }
-.nav-parent a{
+
+.nav-parent a {
     text-decoration: none;
     color: inherit;
 }
+
 /* nav bar end */
 /* banner start */
 .banner-parent {
@@ -94,6 +96,7 @@
     text-align: center;
     margin: 30px 0;
 }
+
 .speaker-parent .speakers {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -101,15 +104,18 @@
     gap: 30px;
     margin: 0 60px;
 }
+
 .speaker-parent .speakers .speaker-card {
     border: 1px solid #E5E7EB;
     border-radius: 10px;
     overflow: hidden;
 }
-.speaker-parent .speakers .speaker-card img{
+
+.speaker-parent .speakers .speaker-card img {
     width: 100%;
     display: block;
 }
+
 .speaker-parent .speakers .speaker-card div {
     padding: 10px;
 }
@@ -119,12 +125,14 @@
     font-weight: bold;
     color: #2563EB;
 }
-.speaker-parent .speakers .speaker-card div h1{
+
+.speaker-parent .speakers .speaker-card div h1 {
     font-size: 20px;
     font-weight: bold;
     color: #0D1B2A;
 }
-.speaker-parent .speakers .speaker-card div p{
+
+.speaker-parent .speakers .speaker-card div p {
     font-size: 14px;
     color: #575757;
 }
@@ -132,34 +140,39 @@
 /* speeaker end */
 
 /* pricing section */
-.pricing-parent{
+.pricing-parent {
     /* margin-top: 90px; */
     margin: 90px 200px 0;
 }
-.pricing-parent h1{
+
+.pricing-parent h1 {
     font-size: 48px;
     font-weight: bold;
     text-align: center;
     padding: 20px;
 }
-.pricing-parent>p{
+
+.pricing-parent>p {
     font-size: 18;
     text-align: center;
     color: #575757;
 }
-.pricing-parent .pricing-card{
+
+.pricing-parent .pricing-card {
     display: flex;
     justify-content: center;
     gap: 40px;
     margin: 50px;
 }
-.pricing-parent .pricing-card .card-w{
+
+.pricing-parent .pricing-card .card-w {
     padding: 30px;
     border: 1px solid #E5E7EB;
     border-radius: 10px;
     flex: 1;
 }
-.pricing-parent .pricing-card .card-D{
+
+.pricing-parent .pricing-card .card-D {
     padding: 30px;
     background-color: #0D1B2A;
     color: white;
@@ -167,22 +180,28 @@
     border-radius: 10px;
     flex: 1;
 }
-.pricing-parent .pricing-card .card-w .card-p h4{
+
+.pricing-parent .pricing-card .card-w .card-p h4 {
     color: #888888;
 }
-.pricing-parent .pricing-card .card-w .card-p p{
+
+.pricing-parent .pricing-card .card-w .card-p p {
     color: #888888;
 }
-.pricing-parent .pricing-card .card-D .card-p h4{
+
+.pricing-parent .pricing-card .card-D .card-p h4 {
     color: #2563EB;
 }
-.pricing-parent .pricing-card .card-D .card-p p{
+
+.pricing-parent .pricing-card .card-D .card-p p {
     color: #888888;
 }
-.pricing-parent .pricing-card .card-D ul{
+
+.pricing-parent .pricing-card .card-D ul {
     color: #FFFFFFCC;
 }
-.pricing-parent .pricing-card .card-w button{
+
+.pricing-parent .pricing-card .card-w button {
     padding: 6px 80px;
     text-align: center;
     display: block;
@@ -193,7 +212,8 @@
     color: #2563EB;
     cursor: pointer;
 }
-.pricing-parent .pricing-card .card-D button{
+
+.pricing-parent .pricing-card .card-D button {
     padding: 6px 80px;
     text-align: center;
     display: block;
@@ -204,34 +224,38 @@
     color: white;
     cursor: pointer;
 }
-.pricing-parent .pricing-card ul{
+
+.pricing-parent .pricing-card ul {
     margin: 20px;
     color: #333333;
 }
-.pricing-parent .pricing-card ul li::marker{
+
+.pricing-parent .pricing-card ul li::marker {
     color: #2563EB;
 }
-.pricing-parent .pricing-card .card-p{
+
+.pricing-parent .pricing-card .card-p {
     padding-bottom: 20px;
 }
+
 /* pricing section end
  */
 
 /* ai section */
 
-.highlight-parent{
+.highlight-parent {
     margin: 90px auto;
     text-align: center;
 }
 
-.highlight-title h1{
+.highlight-title h1 {
     font-size: 48px;
     font-weight: bold;
     color: #0D1B2A;
     margin-bottom: 15px;
 }
 
-.highlight-title p{
+.highlight-title p {
     width: 700px;
     margin: 0 auto 60px;
     font-size: 18px;
@@ -239,12 +263,12 @@
     line-height: 30px;
 }
 
-.highlight-card-parent{
+.highlight-card-parent {
     display: flex;
     gap: 30px;
 }
 
-.highlight-card{
+.highlight-card {
     flex: 1;
     border: 1px solid #E5E7EB;
     border-radius: 10px;
@@ -253,12 +277,12 @@
     transition: .3s;
 }
 
-.highlight-card:hover{
+.highlight-card:hover {
     transform: translateY(-6px);
-    box-shadow: 0 10px 30px rgba(0,0,0,.08);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
 }
 
-.highlight-icon{
+.highlight-icon {
     width: 70px;
     height: 70px;
     margin: 0 auto 25px;
@@ -270,13 +294,13 @@
     font-size: 30px;
 }
 
-.highlight-card h2{
+.highlight-card h2 {
     font-size: 26px;
     color: #0D1B2A;
     margin-bottom: 15px;
 }
 
-.highlight-card p{
+.highlight-card p {
     color: #575757;
     line-height: 28px;
     font-size: 17px;
@@ -285,7 +309,7 @@
 /* ai section end */
 
 /* footer */
-.footer-parent{
+.footer-parent {
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
@@ -293,12 +317,15 @@
     background-color: #0D1B2A;
     color: #FFFFFF66;
 }
-.footer-parent a{
+
+.footer-parent a {
     text-decoration: none;
     color: inherit;
 }
-.footer-parent .footer-link{
+
+.footer-parent .footer-link {
     display: flex;
     gap: 30px;
 }
+
 /* footer end */
