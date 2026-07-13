@@ -29,6 +29,9 @@
     padding: 20px 40px;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
 .nav-parent ul {
@@ -123,3 +126,89 @@
     font-size: 14px;
     color: #575757;
 }
+
+/* speeaker end */
+
+/* pricing section */
+.pricing-parent{
+    /* margin-top: 90px; */
+    margin: 90px 200px 0;
+}
+.pricing-parent h1{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+.pricing-parent>p{
+    font-size: 18;
+    text-align: center;
+    color: #575757;
+}
+.pricing-parent .pricing-card{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 50px;
+}
+.pricing-parent .pricing-card .card-w{
+    padding: 30px;
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    flex: 1;
+}
+.pricing-parent .pricing-card .card-D{
+    padding: 30px;
+    background-color: #0D1B2A;
+    color: white;
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    flex: 1;
+}
+.pricing-parent .pricing-card .card-w .card-p h4{
+    color: #888888;
+}
+.pricing-parent .pricing-card .card-w .card-p p{
+    color: #888888;
+}
+.pricing-parent .pricing-card .card-D .card-p h4{
+    color: #2563EB;
+}
+.pricing-parent .pricing-card .card-D .card-p p{
+    color: #888888;
+}
+.pricing-parent .pricing-card .card-D ul{
+    color: #FFFFFFCC;
+}
+.pricing-parent .pricing-card .card-w button{
+    padding: 6px 80px;
+    text-align: center;
+    display: block;
+    margin: 20px auto 0;
+    border: 1px solid #2563EB;
+    border-radius: 5px;
+    background-color: white;
+    color: #2563EB;
+}
+.pricing-parent .pricing-card .card-D button{
+    padding: 6px 80px;
+    text-align: center;
+    display: block;
+    margin: 20px auto 0;
+    border: 1px solid #2563EB;
+    border-radius: 5px;
+    background-color: #2563EB;
+    color: white;
+}
+.pricing-parent .pricing-card ul{
+    margin: 20px;
+    color: #333333;
+}
+.pricing-parent .pricing-card ul li::marker{
+    color: #2563EB;
+}
+.pricing-parent .pricing-card .card-p{
+    padding-bottom: 20px;
+}
+/* pricing section end
+ */
