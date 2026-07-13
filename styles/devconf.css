@@ -44,7 +44,10 @@
     color: #575757;
     font-size: 18px;
 }
-
+.nav-parent a{
+    text-decoration: none;
+    color: inherit;
+}
 /* nav bar end */
 /* banner start */
 .banner-parent {
@@ -215,3 +218,89 @@
 }
 /* pricing section end
  */
+
+/* ai section */
+
+.highlight-parent{
+    margin: 90px auto;
+    text-align: center;
+}
+
+.highlight-title h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #0D1B2A;
+    margin-bottom: 15px;
+}
+
+.highlight-title p{
+    width: 700px;
+    margin: 0 auto 60px;
+    font-size: 18px;
+    color: #575757;
+    line-height: 30px;
+}
+
+.highlight-card-parent{
+    display: flex;
+    gap: 30px;
+}
+
+.highlight-card{
+    flex: 1;
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 40px 30px;
+    background: white;
+    transition: .3s;
+}
+
+.highlight-card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 10px 30px rgba(0,0,0,.08);
+}
+
+.highlight-icon{
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 25px;
+    border-radius: 50%;
+    background: #EFF6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.highlight-card h2{
+    font-size: 26px;
+    color: #0D1B2A;
+    margin-bottom: 15px;
+}
+
+.highlight-card p{
+    color: #575757;
+    line-height: 28px;
+    font-size: 17px;
+}
+
+/* ai section end */
+
+/* footer */
+.footer-parent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding: 50px 80px;
+    background-color: #0D1B2A;
+    color: #FFFFFF66;
+}
+.footer-parent a{
+    text-decoration: none;
+    color: inherit;
+}
+.footer-parent .footer-link{
+    display: flex;
+    gap: 30px;
+}
+/* footer end */
