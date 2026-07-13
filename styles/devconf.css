@@ -54,6 +54,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-top: 80px;
     background: linear-gradient(45deg, #090909, #fafcfc00), url("../assets/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
