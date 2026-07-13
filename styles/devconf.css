@@ -181,20 +181,14 @@
     flex: 1;
 }
 
-.pricing-parent .pricing-card .card-w .card-p h4 {
-    color: #888888;
-}
-
-.pricing-parent .pricing-card .card-w .card-p p {
+.pricing-parent .pricing-card .card-w .card-p h4,
+.pricing-parent .pricing-card .card-w .card-p p,
+.pricing-parent .pricing-card .card-D .card-p p {
     color: #888888;
 }
 
 .pricing-parent .pricing-card .card-D .card-p h4 {
     color: #2563EB;
-}
-
-.pricing-parent .pricing-card .card-D .card-p p {
-    color: #888888;
 }
 
 .pricing-parent .pricing-card .card-D ul {
