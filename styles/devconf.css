@@ -18,11 +18,6 @@
     cursor: pointer;
 }
 
-.container {
-    max-width: 1200px;
-    margin: auto;
-}
-
 /* Nav bar start */
 .nav-parent {
     display: flex;
@@ -196,6 +191,7 @@
     border-radius: 5px;
     background-color: white;
     color: #2563EB;
+    cursor: pointer;
 }
 .pricing-parent .pricing-card .card-D button{
     padding: 6px 80px;
@@ -206,6 +202,7 @@
     border-radius: 5px;
     background-color: #2563EB;
     color: white;
+    cursor: pointer;
 }
 .pricing-parent .pricing-card ul{
     margin: 20px;
