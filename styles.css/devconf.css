@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.common-btn{
+    background-color: #1D4ED8;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+/* Nav bar start */
+.nav-parent {
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-parent ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    color: #575757;
+}
+
+/* nav bar end */
+
+/* banner start */
