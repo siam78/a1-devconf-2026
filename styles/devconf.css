@@ -27,11 +27,12 @@
 .nav-parent {
     display: flex;
     padding: 20px 40px;
+    background-color: white;
     justify-content: space-between;
     align-items: center;
     position: sticky;
     top: 0;
-    background-color: white;
+    z-index: 1000;
 }
 
 .nav-parent ul {
