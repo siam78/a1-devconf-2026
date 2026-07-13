@@ -69,12 +69,12 @@
     font-size: 22px;
 }
 
-.banner-down {
+.banner-parent .banner-down {
     text-align: center;
     margin-bottom: 90px;
 }
 
-.banner-down .banner-btn {
+.banner-parent .banner-down .banner-btn {
     padding: 20px 30px;
     font-size: 24px;
 }
